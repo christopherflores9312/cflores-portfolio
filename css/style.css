@@ -1,34 +1,91 @@
+body {
+  margin: 0;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #31343d;
-    padding: 20px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #31343d;
+  padding: 20px;
+}
 
-  #logo {
-    background-color: #92ccce;
-    padding: 10px;
-    width: 300px;
-    text-align: right;
-  }
+#logo {
+  background-color: #92ccce;
+  padding: 10px;
+  width: 300px;
+  text-align: right;
+  margin-left: -20px;
+}
 
-  #logo h1 {
-    color: #31343d;
-    margin: 0;
-  }
+#logo h1 {
+  color: #31343d;
+  margin: 0;
+}
 
-  nav {
-    display: flex;
-  }
+nav {
+  display: flex;
+  margin-right: 120px;
+}
 
-  nav a {
-    color: #92ccce;
-    text-decoration: underline;
-    margin-left: 20px;
-  }
-  
-  body {
-    margin: 0;
-  }
-  
+nav a {
+  color: #92ccce;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+#image-box {
+  position: absolute;
+  bottom: -20px;
+  right: 50px;
+  background-color: #92ccce;
+  padding: 10px;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+#image-box h2 {
+  margin: 0;
+  color: #31343d;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+#about-me, #Work {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+#about-me h3, #Work h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#vertical-line {
+  height: 200px;
+  width: 2px;
+  background-color: #ccc;
+  margin-left: 20px;
+}
+
+#paragraphs {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: calc(50% - 30px);
+}
+
+#paragraphs div {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#paragraphs p {
+  margin-top: 0;
+}
