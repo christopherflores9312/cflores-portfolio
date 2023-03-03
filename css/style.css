@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  position: relative;
 }
 
 header {
@@ -34,10 +35,15 @@ nav a {
   margin-left: 20px;
 }
 
+.image-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
 #image-box {
   position: absolute;
-  bottom: -20px;
-  right: 50px;
+  bottom: 20px;
+  right: 20px;
   background-color: #92ccce;
   padding: 10px;
   border: 1px solid #ccc;
@@ -54,83 +60,35 @@ img {
   width: 100%;
 }
 
-#container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 20px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Updated */
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.grid-item:nth-of-type(1),
+.grid-item:nth-of-type(3),
+.grid-item:nth-of-type(5) {
+  font-size: 80px;
+  margin-left: 50%;
+  text-align: right;
+  justify-content: flex-start;
+  border: 0px;
+}
+
+.grid-item:nth-of-type(2),
+.grid-item:nth-of-type(4),
+.grid-item:nth-of-type(6) {
+  border-left: 5px solid #ccc;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
   padding-left: 20px;
-}
-
-#headings {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-right: 30px;
-}
-
-#paragraphs {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-  width: calc(50% - 60px);
-}
-
-#headings h3 {
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-#vertical-lines {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 30px;
-}
-
-#vertical-line {
-  height: 250px;
-  width: 2px;
-  background-color: #ccc;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-
-#vertical-line-2 {
-  height: 250px;
-  width: 2px;
-  background-color: #ccc;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#vertical-line-3 {
-  height: 250px;
-  width: 2px;
-  background-color: #ccc;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#paragraphs div {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-#paragraphs p {
-  margin-top: 0;
-}
-
-#headings h3:nth-of-type(2) {
-  margin-top: 250px;
-}
-
-#headings h3:last-of-type {
-  margin-top: 250px;
-}
-
-#image-container {
-  margin-left: 10px;
-  width: 50%;
 }
