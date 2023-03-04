@@ -33,6 +33,12 @@ nav a {
   color: #92ccce;
   text-decoration: underline;
   margin-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a.active {
+  color: #fff;
+  background-color: #92ccce;
 }
 
 .image-container {
@@ -165,5 +171,9 @@ img {
 
 .grid-item h3 {
   font-size: 1.5vw;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
