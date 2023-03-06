@@ -94,11 +94,12 @@ nav a.active {
   width: 100%;
 }
 
+
 /* Style the image box */
 #image-box {
   position: absolute; /* Set position to absolute */
-  bottom: 20px; /* Add bottom offset */
-  right: 20px; /* Add right offset */
+  bottom: 5%; /* Add bottom offset */
+  right: 5%; /* Add right offset */
   background-color: #92ccce; /* Set background color */
   padding: 10px; /* Add padding */
   border: 1px solid #ccc; /* Add border */
@@ -123,7 +124,7 @@ img {
   display: grid; /* Use grid layout */
   grid-template-columns: 1fr 2fr; /* Set column sizes */
   grid-template-rows: repeat(3, auto); /* Set row sizes */
-  grid-gap: 20px; /* Add gap between elements */
+  grid-gap: 5%; /* Add gap between elements */
   align-content: start; /* Align content to the start */
 }
 
@@ -153,7 +154,7 @@ img {
 /* Style the grid items */
 .grid-item {
   background-color: #ffffff; /* Set background color */
-  padding: 20px; /* Add padding */
+  padding: 5%; /* Add padding */
   border: 1px solid #ccc; /* Add border */
 }
 
@@ -176,7 +177,7 @@ img {
   border-top: 0px; /* Remove top border */
   border-right: 0px; /* Remove right border */
   border-bottom: 0px; /* Remove bottom border */
-  padding-left: 20px; /* Add left padding */
+  padding-left: 5%; /* Add left padding */
 }
 
 
@@ -185,14 +186,14 @@ img {
   display: grid; /* Use grid layout */
   grid-template-columns: repeat(2, 1fr); /* Set column sizes */
   grid-template-rows: repeat(3, auto); /* Set row sizes */
-  grid-gap: 10px; /* Add gap between elements */
-  padding: 10px; /* Add padding */
+  grid-gap: 2%; /* Add gap between elements */
+  padding: 2%; /* Add padding */
 }
 
 /* Style the sub-grid items */
 .sub-grid-item {
   background-color: #ffffff; /* Set background color */
-  padding: 10px; /* Add padding */
+  padding: 2%; /* Add padding */
   border: 0px solid #92ccce; /* Add border */
 }
 
@@ -204,7 +205,7 @@ img {
 /* Style the image container */
 .image-container2 {
   position: relative; /* Set position to relative */
-  margin-bottom: 20px; /* Add bottom margin */
+  margin-bottom: 5%; /* Add bottom margin */
 }
 
 
@@ -228,7 +229,7 @@ img {
   bottom: 20px; /* Set the distance from the bottom */
   left: 0px; /* Set the distance from the left */
   background-color: #92ccce; /* Set the background color */
-  padding: 10px; /* Add padding */
+  padding: 2%; /* Add padding */
   border: 0px solid #ccc; /* Add a border */
   z-index: 1; /* Set the z-index */
 }
@@ -250,7 +251,7 @@ img {
 /* Style the heading inside the last grid item */
 .grid-item:last-child h3 {
   flex: 1; /* Set the flex property */
-  margin: 0 10px; /* Set the margin */
+  margin: 0 2%; /* Set the margin */
   text-align: center; /* Set the text alignment */
 }
 
