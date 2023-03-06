@@ -58,8 +58,14 @@ nav a.active {
   #logo {
     margin-left: 0;
     text-align: center;
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
+  }
+
+  #logo h1 {
+    color: #31343d;
+    margin: 0;
+    font-size: 1em;
   }
   
   nav {
