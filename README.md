@@ -4,7 +4,7 @@ This is the repository for my personal portfolio website, where I showcase my wo
 
 ## Getting Started
 
-To view the website, simply open the `index.html` file in your preferred web browser. Alternatively, you can visit the website at https://christopherflores9312.github.io/cflores-portfolio/.
+To view the website, simply open the `index.html` file in your preferred web browser. Alternatively, you can visit the website at https://christopherflores9312.github.io/cflores-portfolio/
 
 ## Prerequisites
 
