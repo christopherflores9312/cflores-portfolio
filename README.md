@@ -2,6 +2,8 @@
 
 This is the repository for my personal portfolio website, where I showcase my work and provide information about myself. The website is built using HTML and CSS, and is responsive to different screen sizes.
 
+<img src="assets/cflores-portfolio.png" alt="Screenshot of Christopher Flores Portfolio" width="400">
+
 ## Getting Started
 
 To view the website, simply open the `index.html` file in your preferred web browser. Alternatively, you can visit the website at https://christopherflores9312.github.io/cflores-portfolio/
